@@ -2,13 +2,23 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-* {
-    color: black;
+    overflow-x: hidden;
 }
 
 
-/* a {
-    color: black;
+/* * {
+    background-color: #f4f7fe;
 } */
+
+header {
+    margin: 10px 100px;
+    background-color: #f4f7fe;
+}
+
+
+/* transform: translateY(-50%);
+     transform: translateX(-60%); */
+
+.developer-details {
+    padding-left: 15px;
+}
