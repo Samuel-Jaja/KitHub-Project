@@ -5,14 +5,12 @@ body {
     overflow-x: hidden;
 }
 
-
-/* * {
-    background-color: #f4f7fe;
-} */
-
 header {
     margin: 10px 100px;
     background-color: #f4f7fe;
+    /* background-image: url("../assets/wave.svg");
+    background-size: cover; */
+    /* height: 789px; */
 }
 
 
@@ -21,4 +19,31 @@ header {
 
 .developer-details {
     padding-left: 15px;
+    line-height: 10px;
+}
+
+.card-1 {
+    position: absolute;
+    top: -60%;
+    z-index: 999;
+    left: -17%;
+    width: 205px;
+    height: 105px;
+}
+
+.card-2 {
+    position: absolute;
+    top: -53%;
+    z-index: 999;
+    left: -38%;
+    width: 198px;
+    height: 105px;
+}
+
+.card-3 {
+    position: absolute;
+    top: 0;
+    right: -6%;
+    width: 365px;
+    height: 140px;
 }

@@ -17,7 +17,7 @@
 
 <body>
     <!-- To be modified svg -->
-    <div>
+    <!-- <div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#0099ff"
@@ -25,14 +25,16 @@
           d="M0,288L48,250.7C96,213,192,139,288,96C384,53,480,43,576,64C672,85,768,139,864,176C960,213,1056,235,1152,218.7C1248,203,1344,149,1392,122.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
         ></path>
       </svg>
-    </div>
+    </div> -->
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5000ca" fill-opacity="0.1" d="M0,32L40,42.7C80,53,160,75,240,117.3C320,160,400,224,480,256C560,288,640,288,720,266.7C800,245,880,203,960,170.7C1040,139,1120,117,1200,112C1280,107,1360,117,1400,122.7L1440,128L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
 
 
 
     <header>
         <!--Navigation Bar in Progress -->
         <nav class="navbar py-4 navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
+            <div class="container-fluid" style="background-image: url(./);">
                 <a class="navbar-brand" style="color: blue" href="#">Kit<span style="color: black">hub.</span></a
           >
           <button
@@ -50,7 +52,7 @@
             class="collapse navbar-collapse d-lg-flex justify-content-lg-center "
             id="navbarNavDarkDropdown"
           >
-            <ul class="navbar-nav ms-auto ">
+            <ul class="navbar-nav hovered-nav ms-auto ">
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle text-dark fs-5"
@@ -131,7 +133,7 @@
                         <h6 class="fw-bold mb-1 d-none d-lg-block">
                             By Alexander Johnson
                         </h6>
-                        <h5 class="fw-normal text-gray-600 mb-0">
+                        <h5 class="fw-normal text-gray-600 mb-0 text-muted">
                             Author & Senior Software Developer at GitLab
                         </h5>
                         <div class="row mt-4 mt-md-40px">
@@ -146,7 +148,22 @@
 
                     <div class="col-10 col-md-6 col-lg-4  ">
                         <img class="w-100" src="http://ballkanlab.com/themes/kithub/v1.0/assets/img/landings/vue_01.png" alt="vue pic" />
-                        <div class="card card-1" data-aos="fade-up" data-aos-delay="100" style="width: 205px; height: 105px;">
+                        <div class="card card-3">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+
+                                    <div class="flex-grow-1">
+                                        <h2>Happy Student</h2>
+                                        <h1>1245</h1>
+                                    </div>
+                                    <div class="mt-2">
+                                        <span class="material-icons display-4 text-primary">sentiment_satisfied_alt</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card card-1" data-aos="fade-up" data-aos-delay="100">
                             <div class="card-body  ">
                                 <div class="d-flex align-items-center">
 
@@ -162,7 +179,7 @@
                             </div>
                         </div>
 
-                        <div data-aos="fade-up" data-aos-delay="500" class="card" style="width: 198px; height: 105px;">
+                        <div class="card card-2" data-aos="fade-up" data-aos-delay="500">
                             <div class="card-body">
                                 <div class="d-flex align-items-center">
 
@@ -177,20 +194,7 @@
                             </div>
                         </div>
 
-                        <div data-aos="fade-up" data-aos-delay="900" class="card" style="width: 356px; height: 140px;">
-                            <div class="card-body">
-                                <div class="d-flex align-items-center">
 
-                                    <div class="flex-grow-1">
-                                        <h2>Happy Student</h2>
-                                        <h1>1245</h1>
-                                    </div>
-                                    <div class="mt-2">
-                                        <span class="material-icons display-4 text-primary">sentiment_satisfied_alt</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
                     </div>
 
@@ -204,17 +208,17 @@
         <div class="container">
             <div class="row justify-content-around ">
                 <div class="col-lg-3">
-                    <div class="card" style="margin-top: 100px; width: 261px; height: 355px;">
+                    <div class="card shadow" style="margin-top: 100px; width: 261px; height: 355px;  ">
 
                         <div class="card-body">
-                            <h6 class="card-title" style=" margin-top: 21px; font-size: 15px; color: #A3D2FB; width: 151px; height: 30px;">FEATURED COMMENT</h6>
-                            <p class="card-text " style="margin-top: 65px; width: 221px; height: 140px; font-size: 17px;"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
+                            <h6 class="card-title p-2" style=" margin-top: 21px; font-size: 13px;  width: 151px; height: 30px; color:#8575F0; background-color: #A3D2FB; border-radius: 4px; ">FEATURED COMMENT</h6>
+                            <p class="card-text text-muted " style="margin-top: 35px; width: 221px; height: 140px; font-size: 17px;"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
 
                             <div class="d-flex">
                                 <img style="width: 50px; height: 50px;" src="../src/assets/avatar_01.png" class="card-img-top" alt="Alban James pIc">
                                 <div class="developer-details">
                                     <h6>Alban James</h6>
-                                    <p>Junior Developer</p>
+                                    <p class="text-muted">Junior Developer</p>
                                 </div>
                             </div>
                         </div>
@@ -223,72 +227,63 @@
                 </div>
 
                 <div class="col-lg-3">
-                    <div class="card" style="margin-top: 100px; width: 261px; height: 355px;">
+                    <div class="card shadow" style="margin-top: 100px; width: 261px; height: 355px;  ">
 
                         <div class="card-body">
-                            <h6 class="card-title" style=" margin-top: 21px; font-size: 15px; color: #A3D2FB; width: 151px; height: 30px;">FEATURED COMMENT</h6>
-                            <p class="card-text " style="margin-top: 65px; width: 221px; height: 140px; font-size: 17px;"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
+                            <h6 class="card-title p-2" style=" margin-top: 21px; font-size: 13px;  width: 151px; height: 30px; color:#61C79B; background-color: #D8F1E6; border-radius: 4px; ">FEATURED COMMENT</h6>
+                            <p class="card-text text-muted " style="margin-top: 35px; width: 221px; height: 140px; font-size: 17px;"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
 
                             <div class="d-flex">
-                                <img style="width: 50px; height: 50px;" src="../src/assets/avatar_01.png" class="card-img-top" alt="Alban James pIc">
+                                <img style="width: 50px; height: 50px;" src="../src/assets/avatar_05.png" class="card-img-top" alt="Alban James pIc">
                                 <div class="developer-details">
-                                    <h6>Alban James</h6>
-                                    <p>Junior Developer</p>
-
+                                    <h6>John Doe</h6>
+                                    <p class="text-muted">Junior Developer</p>
                                 </div>
-
                             </div>
-
-                        </div>
-                    </div>
-
-
-
-                </div>
-
-                <div class="col-lg-3">
-                    <div class="card" style="margin-top: 100px; width: 261px; height: 355px;">
-
-                        <div class="card-body">
-                            <h6 class="card-title" style=" margin-top: 21px; font-size: 15px; color: #A3D2FB; width: 151px; height: 30px;">FEATURED COMMENT</h6>
-                            <p class="card-text " style="margin-top: 65px; width: 221px; height: 140px; font-size: 17px;"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
-
-                            <div class="d-flex">
-                                <img style="width: 50px; height: 50px;" src="../src/assets/avatar_01.png" class="card-img-top" alt="Alban James pIc">
-                                <div class="developer-details">
-                                    <h6>Alban James</h6>
-                                    <p>Junior Developer</p>
-
-                                </div>
-
-                            </div>
-
                         </div>
 
                     </div>
                 </div>
 
                 <div class="col-lg-3">
-                    <div class="card" style="margin-top: 100px; width: 261px; height: 355px;">
+                    <div class="card shadow" style="margin-top: 100px; width: 261px; height: 355px;  ">
 
                         <div class="card-body">
-                            <h6 class="card-title" style=" margin-top: 21px; font-size: 15px; color: #A3D2FB; width: 151px; height: 30px;">FEATURED COMMENT</h6>
-                            <p class="card-text " style="margin-top: 65px; width: 221px; height: 140px; font-size: 17px;"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
+                            <h6 class="card-title p-2" style=" margin-top: 21px; font-size: 13px;  width: 151px; height: 30px; color:#F38180; background-color: #FCDDDD; border-radius: 4px; ">FEATURED COMMENT</h6>
+                            <p class="card-text text-muted " style="margin-top: 35px; width: 221px; height: 140px; font-size: 17px;"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
 
                             <div class="d-flex">
-                                <img style="width: 50px; height: 50px;" src="../src/assets/avatar_01.png" class="card-img-top" alt="Alban James pIc">
+                                <img style="width: 50px; height: 50px;" src="../src/assets/avatar_06.png" class="card-img-top" alt="Alban James pIc">
                                 <div class="developer-details">
-                                    <h6>Alban James</h6>
-                                    <p>Junior Developer</p>
-
+                                    <h6>Andy Mio</h6>
+                                    <p class="text-muted">Junior Developer</p>
                                 </div>
-
                             </div>
-
                         </div>
 
                     </div>
                 </div>
+
+                <div class="col-lg-3">
+                    <div class="card shadow" style="margin-top: 100px; width: 261px; height: 355px;  ">
+
+                        <div class="card-body">
+                            <h6 class="card-title p-2" style=" margin-top: 21px; font-size: 13px;  width: 151px; height: 30px; color:#EFC85F; background-color: #F8ECCC; border-radius: 4px; ">FEATURED COMMENT</h6>
+                            <p class="card-text text-muted " style="margin-top: 35px; width: 221px; height: 140px; font-size: 17px;"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
+
+                            <div class="d-flex">
+                                <img style="width: 50px; height: 50px;" src="../src/assets/avatar_04.png" class="card-img-top" alt="Alban James pIc">
+                                <div class="developer-details">
+                                    <h6>Arina Juos</h6>
+                                    <p class="text-muted">Junior Developer</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
 
             </div>
 
