@@ -82,7 +82,16 @@ p {
     font-size: 12px !important;
 }
 
-@media (min-width: 990px) and (max-width: 1200px){
+@media (min-width: 768px) and (max-width: 991px){
+    .special {
+        margin-top: -50px !important;
+    }
+
+    .spirit {
+        display: none;
+    }
+
+@media (min-width: 992px) and (max-width: 1200px){
     .a {
         margin-top: -200px !important;
         margin-bottom: 100px !important;
@@ -97,6 +106,10 @@ p {
 
     .a3 {
         margin-top: -100px !important;
+    }
+
+    .special2 {
+        margin-top: -30px !important;
     }
 }
 
@@ -116,4 +129,17 @@ p {
     .a3 {
         margin-top: -130px !important;
     }
+
+    .column {
+        width: 250px !important;
+    }
+
+    .row1 {
+        justify-content: space-between !important;
+    }
+
+    .special2 {
+        margin-top: -30px !important;
+    }
+}
 }
