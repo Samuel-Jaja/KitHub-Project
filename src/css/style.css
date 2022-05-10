@@ -1,0 +1,119 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    background-image: url(./Screenshot\ \(167\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    background-color:  #f3f6ff;
+}
+
+.a {
+    margin-top: -200px !important;
+    margin-bottom: 100px !important;
+}
+.a2 {
+    margin-top: -200px !important;
+    margin-bottom: 100px !important;
+}
+
+.link {
+    margin-top: -400px;
+    margin-left: 250px;
+}
+
+.benefits {
+    background-color: #e5e9f3;;
+}
+
+.accordion-button::after {
+    position: absolute;
+    left: 0;
+}
+
+.ul {
+    font-size: 15px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.badge1 {
+    background-color: #d2dcfb !important;
+    color: #4d75ef !important; 
+    font-weight: 500 !important;
+}
+.badge2 {
+    background-color: #d8f1e6 !important;
+    color: #61c79b !important; 
+    font-weight: 500 !important;
+}
+.badge3 {
+    background-color: #fcdddd  !important;
+    color: #f37676 !important; 
+    font-weight: 500 !important;
+}
+.badge4 {
+    background-color: #f8eccc !important;
+    color: #e5b433 !important; 
+    font-weight: 500 !important;
+}
+
+.badgeicon {
+    background-color: #d2dcfb !important;
+    color: #4d75ef !important; 
+    border-radius: 100px !important;
+    font-weight: 500 !important;
+}
+
+.sect {
+    background-image: url(./bg.png) !important;
+}
+
+.dropdown-menu {
+    font-size: 12px !important;
+}
+
+@media (min-width: 990px) and (max-width: 1200px){
+    .a {
+        margin-top: -200px !important;
+        margin-bottom: 100px !important;
+        left: -70px;
+    }
+
+    .a2 {
+        margin-top: -80px !important;
+        margin-bottom: 100px !important;
+        left: -220px;
+    }
+
+    .a3 {
+        margin-top: -100px !important;
+    }
+}
+
+@media (min-width: 1200px){
+    .a {
+        margin-top: -230px !important;
+        margin-bottom: 130px !important;
+        left: -70px;
+    }
+
+    .a2 {
+        margin-top: -110px !important;
+        margin-bottom: 150px !important;
+        left: -300px;
+    }
+
+    .a3 {
+        margin-top: -130px !important;
+    }
+}
