@@ -5,13 +5,16 @@ body {
     overflow-x: hidden;
 }
 
+
+/*
 header {
-    margin: 10px 100px;
-    background-color: #f4f7fe;
-    /* background-image: url("../assets/wave.svg");
-    background-size: cover; */
-    /* height: 789px; */
+    margin: 10px 100px; 
+     background-color: #f4f7fe;
+    background-image: url(../src/assets/header-bg.svg);
+    background-position-x: center;
+    background-position-y: top; 
 }
+*/
 
 
 /* transform: translateY(-50%);
