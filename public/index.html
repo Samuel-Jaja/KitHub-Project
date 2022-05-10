@@ -16,24 +16,9 @@
 </head>
 
 <body>
-    <!-- To be modified svg -->
-    <!-- <div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#0099ff"
-          fill-opacity="1"
-          d="M0,288L48,250.7C96,213,192,139,288,96C384,53,480,43,576,64C672,85,768,139,864,176C960,213,1056,235,1152,218.7C1248,203,1344,149,1392,122.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
-        ></path>
-      </svg>
-    </div> -->
-
-    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5000ca" fill-opacity="0.1" d="M0,32L40,42.7C80,53,160,75,240,117.3C320,160,400,224,480,256C560,288,640,288,720,266.7C800,245,880,203,960,170.7C1040,139,1120,117,1200,112C1280,107,1360,117,1400,122.7L1440,128L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg> -->
-
-
-
-    <header style="background-image:url(../src/assets/wave.svg); background-size: cover;">
+    <header style="background-image: url(../src/assets/header-bg.svg); background-size: cover; background-position-x: center; background-position-y: top;">
         <!--Navigation Bar in Progress -->
-        <nav class="navbar py-4 navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar py-4 navbar-expand-lg navbar-light bg-transparent">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="../src/assets/kithub-logo.svg" alt="logo">
@@ -125,7 +110,7 @@
                                 <a class="btn btn-primary" style="width: 170px; height: 46px;" href="https://bikeguy.net/">Start 7 day free</a>
                                 <!-- <a class="btn btn-link link-grey-600" href="https://www.youtube.com/watch?v=OrxmtDw4pVI">Who am I</a> -->
                                 <!-- Review -->
-                                <a class="btn btn-link link-gray-600 d-inline-flex align-items-center text-decoration-none" data-fancybox="introdaction" href="https://www.youtube.com/watch?v=OrxmtDw4pVI">
+                                <a class="btn btn-link link-gray-600  d-inline-flex align-items-center text-decoration-none" data-fancybox="introdaction" href="https://www.youtube.com/watch?v=OrxmtDw4pVI">
                                     <span class="badge badge-lg badge-rounded-circle bg-primary-100 text-primary me-2">
                                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-play-circle"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
                                     </span> Who am I
@@ -134,7 +119,7 @@
                         </div>
 
                         <div>
-                            <img src="../src/assets/long-arrow-pointer.svg" alt="arrow" style="margin-top: 37px;">
+                            <img class="d-lg-block d-none" src="../src/assets/long-arrow-pointer.svg" alt="arrow" style="margin-top: 37px;">
                         </div>
                     </div>
 
@@ -195,84 +180,97 @@
     </header>
 
     <!--Featured Section in Progress -->
-    <section id="featured-comment" class="d-flex align-items-center">
+
+    <section id="featured-comment" class="bg-white ">
         <div class="container">
-            <div class="row justify-content-around ">
-                <div class="col-lg-3">
-                    <div class="card shadow" style="margin-top: 100px; width: 261px; height: 355px;  ">
+            <div class="row " style="margin-top: 100px; margin-bottom: 60px;">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card shadow mb-4 mb-lg-0">
                         <div class="card-body">
-                            <h6 class="card-title p-2" style=" margin-top: 21px; font-size: 13px;  width: 151px; height: 30px; color:#8575F0; background-color: #A3D2FB; border-radius: 4px; ">FEATURED COMMENT</h6>
-                            <p class="card-text text-muted " style="margin-top: 35px; width: 221px; height: 140px; font-size: 17px;"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
-
-                            <div class="d-flex">
-                                <img style="width: 50px; height: 50px;" src="../src/assets/avatar_01.png" class="card-img-top" alt="Alban James pIc">
-                                <div class="developer-details">
-                                    <h6>Alban James</h6>
-                                    <p class="text-muted">Junior Developer</p>
+                            <span class="badge d-inline-block bg-primary-100 text-primary-400 text-uppercase mb-35px">Featured comment</span>
+                            <figure class="mb-0">
+                                <h6 class="card-title p-2" style="  font-size: 13px;  width: 151px; height: 30px; color:#8575F0; background-color: #A3D2FB; border-radius: 4px; ">FEATURED COMMENT</h6>
+                                <p class="card-text text-muted " style="margin-top: 35px;  font-size: 17px;"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
+                                <div class="d-flex">
+                                    <img style="width: 50px; height: 50px;" src="../src/assets/avatar_01.png" class="card-img-top" alt="Alban James pIc">
+                                    <div class="developer-details">
+                                        <h6>Alban James</h6>
+                                        <p class="text-muted">Junior Developer</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </figure>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-3">
-                    <div class="card shadow" style="margin-top: 100px; width: 261px; height: 355px;  ">
-
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card shadow mb-4 mb-lg-0">
                         <div class="card-body">
-                            <h6 class="card-title p-2" style=" margin-top: 21px; font-size: 13px;  width: 151px; height: 30px; color:#61C79B; background-color: #D8F1E6; border-radius: 4px; ">FEATURED COMMENT</h6>
-                            <p class="card-text text-muted " style="margin-top: 35px; width: 221px; height: 140px; font-size: 17px;"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
-
-                            <div class="d-flex">
-                                <img style="width: 50px; height: 50px;" src="../src/assets/avatar_05.png" class="card-img-top" alt="Alban James pIc">
-                                <div class="developer-details">
-                                    <h6>John Doe</h6>
-                                    <p class="text-muted">Junior Developer</p>
+                            <span class="badge d-inline-block bg-primary-100 text-primary-400 text-uppercase mb-35px">Featured comment</span>
+                            <figure class="mb-0">
+                                <h6 class="card-title p-2" style="  font-size: 13px;  width: 151px; height: 30px;color:#61C79B; background-color: #D8F1E6; border-radius: 4px; ">FEATURED COMMENT</h6>
+                                <p class="card-text text-muted " style="margin-top: 35px;  font-size: 17px;"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
+                                <div class="d-flex">
+                                    <img style="width: 50px; height: 50px;" src="../src/assets/avatar_05.png" class="card-img-top" alt="Alban James pIc">
+                                    <div class="developer-details">
+                                        <h6>John Doe</h6>
+                                        <p class="text-muted">Junior Developer</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
+                            </figure>
 
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-lg-3">
-                    <div class="card shadow" style="margin-top: 100px; width: 261px; height: 355px;  ">
-
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card shadow mb-4 mb-lg-0">
                         <div class="card-body">
-                            <h6 class="card-title p-2" style=" margin-top: 21px; font-size: 13px;  width: 151px; height: 30px; color:#F38180; background-color: #FCDDDD; border-radius: 4px; ">FEATURED COMMENT</h6>
-                            <p class="card-text text-muted " style="margin-top: 35px; width: 221px; height: 140px; font-size: 17px;"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
-
-                            <div class="d-flex">
-                                <img style="width: 50px; height: 50px;" src="../src/assets/avatar_06.png" class="card-img-top" alt="Alban James pIc">
-                                <div class="developer-details">
-                                    <h6>Andy Mio</h6>
-                                    <p class="text-muted">Junior Developer</p>
+                            <span class="badge d-inline-block bg-primary-100 text-primary-400 text-uppercase mb-35px">Featured comment</span>
+                            <figure class="mb-0">
+                                <h6 class="card-title p-2" style="  font-size: 13px;  width: 151px; height: 30px;color:#F38180; background-color: #FCDDDD; border-radius: 4px;">FEATURED COMMENT</h6>
+                                <p class="card-text text-muted " style="margin-top: 35px;  font-size: 17px;"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
+                                <div class="d-flex">
+                                    <img style="width: 50px; height: 50px;" src="../src/assets/avatar_05.png" class="card-img-top" alt="Alban James pIc">
+                                    <div class="developer-details">
+                                        <h6>John Doe</h6>
+                                        <p class="text-muted">Junior Developer</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </figure>
                         </div>
-
                     </div>
                 </div>
 
-                <div class="col-lg-3">
-                    <div class="card shadow" style="margin-top: 100px; width: 261px; height: 355px;  ">
-
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card shadow mb-4 mb-lg-0">
                         <div class="card-body">
-                            <h6 class="card-title p-2" style=" margin-top: 21px; font-size: 13px;  width: 151px; height: 30px; color:#EFC85F; background-color: #F8ECCC; border-radius: 4px; ">FEATURED COMMENT</h6>
-                            <p class="card-text text-muted " style="margin-top: 35px; width: 221px; height: 140px; font-size: 17px;"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
-
-                            <div class="d-flex">
-                                <img style="width: 50px; height: 50px;" src="../src/assets/avatar_04.png" class="card-img-top" alt="Alban James pIc">
-                                <div class="developer-details">
-                                    <h6>Arina Juos</h6>
-                                    <p class="text-muted">Junior Developer</p>
+                            <span class="badge d-inline-block bg-primary-100 text-primary-400 text-uppercase mb-35px">Featured comment</span>
+                            <figure class="mb-0">
+                                <h6 class="card-title p-2" style="  font-size: 13px;  width: 151px; height: 30px;color:#EFC85F; background-color: #F8ECCC; border-radius: 4px;  ">FEATURED COMMENT</h6>
+                                <p class="card-text text-muted " style="margin-top: 35px;  font-size: 17px;"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy</p>
+                                <div class="d-flex">
+                                    <img style="width: 50px; height: 50px;" src="../src/assets/avatar_04.png" class="card-img-top" alt="Alban James pIc">
+                                    <div class="developer-details">
+                                        <h6>Arina Juos</h6>
+                                        <p class="text-muted">Junior Developer</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </figure>
                         </div>
-
                     </div>
                 </div>
             </div>
+        </div>
+
+
+
+
     </section>
+
+
+
+
 
 
 
